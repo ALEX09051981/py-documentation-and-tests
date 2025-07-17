@@ -146,7 +146,8 @@ class MovieViewSet(
                 name="actors",
                 description="Filter by actor ids (comma-separated)",
                 required=False,
-                type={"type": "list", "items": {"type": "number"}}),
+                type={"type": "list", "items": {"type": "number"}}
+            ),
         ]
     )
 
